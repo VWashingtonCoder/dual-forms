@@ -11,3 +11,10 @@ export type MusicFormType = {
     song: string;    
 }
 
+export type FormElementType = {
+  key: string;
+  label: string;
+  name: string;
+  type: string;
+}
+
